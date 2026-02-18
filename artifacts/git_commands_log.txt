@@ -92,3 +92,25 @@ index 6358e53..995fd32 100644
 # Shows unstaged changes compared to the last commit.
 
 $ git add .
+warning: in the working copy of 'artifacts/git_commands_log.txt', LF will be replaced by CRLF the next time Git touches it
+# Stages changes to be included in the next commit.
+
+$ git commit -m 'chore: add git command evidence'
+[master b2af22a] chore: add git command evidence
+ 1 file changed, 73 insertions(+), 39 deletions(-)
+# Creates a new commit snapshot in repository history.
+
+$ git remote -v
+origin	https://github.com/Trapp2988/hw08_git_hygiene.git (fetch)
+origin	https://github.com/Trapp2988/hw08_git_hygiene.git (push)
+# Shows the remote repository URLs connected to this repo.
+
+$ git push
+To https://github.com/Trapp2988/hw08_git_hygiene.git
+   85b6093..b2af22a  master -> master
+# Uploads local commits to the remote repository.
+
+$ git pull
+Already up to date.
+# Fetches and merges changes from the remote repository.
+
