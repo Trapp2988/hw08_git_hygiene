@@ -1,0 +1,7 @@
+* 12e8b69 (HEAD -> master, origin/master, origin/HEAD) chore: add git command evidence
+* b2af22a chore: add git command evidence
+* 85b6093 chore: add git command evidence
+* 8de0777 fix: restore correct greeting format
+* 9616e9a introduce formatting bug for practice
+* 75b58ee feat: add minimal cli app
+* ec39d41 chore: initialize repo structure
