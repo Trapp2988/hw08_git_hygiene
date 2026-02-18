@@ -6,7 +6,7 @@ def main():
 
     args = parser.parse_args()
 
-    print(f"Hello {args.name}!")
+    print(f"Hello, {args.name}!")
 
 
 if __name__ == "__main__":
